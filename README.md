@@ -1,12 +1,14 @@
 # このアプリケーションについて
-これはyoutubeの動画がwayback上にアーカイブされているかを検索するための拡張です。機能は検索機能のみとなります。
+これはwebサイトやyoutubeの動画がwayback上にアーカイブされているか、検索と確認を容易にするための拡張機能です。
 
 # 事前準備
 ## Google Chromeをインストールしてください
 ほとんどの方がChromeを使用していると思うので、インストール手順は省略。
 
 ## 拡張機能のファイルをダウンロード
-以下のコマンドを実行し、WaybackSearchExtensionをクローンしてください。
+GitHub上のページの"Code"からzipファイルをダウンロードして、解凍してください。
+
+もしくは以下のコマンドを実行し、WaybackSearchExtensionをクローンしてください。
 ```
 git clone https://github.com/portfoliokns/WaybackSearchExtension.git
 ```
@@ -24,9 +26,14 @@ git clone https://github.com/portfoliokns/WaybackSearchExtension.git
 6. YouTubeを開き、動画を右クリックして、メニューの中に「Wayback検索」が表示されていることを確認してください。
 
 # 使い方
+## YouTubeの動画の場合
 - Wayback検索したいYouTubeの動画のリンクを右クリックしてください。
-- メニューの中の「Wayback検索」をクリックしてください。
-- クリック後、Wayback Machineのページが表示されます。もしアーカイブされている動画があれば、その動画が表示されます。
+- メニューの中の「Wayback検索」にカーソルを合わせると、「YouTube検索」「Webサイト検索」が表示されます。
+- 「YouTube検索」をクリックすると、Wayback Machineのページが表示されます。もしアーカイブされている動画があれば、その動画が表示されます。
+- 「Webサイト検索」をクリックすると、Wayback Machineのページが表示されます。もしアーカイブされている情報があれば、その情報が一覧として表示されます。
+## 通常のWebサイトの場合
+- Wayback検索したいWebサイトのリンクを右クリックしてください。
+- メニューの中の「Wayback検索」をクリックすると、Wayback Machineのページが表示されます。もしアーカイブされている情報があれば、その情報が一覧として表示されます。
 
 # 免責事項
 - この拡張機能はGitHub上で公開されています。この拡張機能を使用したことにより発生した被害や損害について、このアプリの開発者は一切関与致しません。

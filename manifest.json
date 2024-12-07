@@ -6,7 +6,7 @@
     "128": "icon-128.png"
   },
   "name": "Wayback検索",
-  "version": "1.0",
+  "version": "2.0",
   "permissions": ["contextMenus", "tabs"],
   "background": {
     "service_worker": "wayback_search.js"
